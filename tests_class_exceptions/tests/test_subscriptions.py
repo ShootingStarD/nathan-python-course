@@ -1,4 +1,4 @@
-from sncb.src.subscriptions import compute_sncb_subscription
+from tests_class_exceptions.src.subscriptions import compute_sncb_subscription
 def test_student_plan():
     age = 24
     working_status = "student"
