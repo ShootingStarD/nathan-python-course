@@ -19,23 +19,23 @@ pip install -e .
 ## Roadmap
 
 - [ ] tests-classes-exceptions
-  - [ ] Tests
+  - [ ] [Tests](https://www.youtube.com/watch?v=1Lfv5tUGsn8&ab_channel=Socratica)
     - [ ] Pytest
     - [ ] Coverage
-  - [ ] Class
-    - [ ] Normal Class
-    - [ ] Dataclasses
+  - [ ] [Classes](https://www.youtube.com/watch?v=apACNr7DC_s&ab_channel=Socratica)
+    - [ ] Normal Classes
+    - [ ] [Dataclasses](https://www.youtube.com/watch?v=vBH6GRJ1REM&t=12s&ab_channel=mCoding)
     - [ ] Abstract Classes
-    - [ ] Pydantic
-  - [ ] Exceptions
+    - [ ] [Pydantic](https://www.youtube.com/watch?v=XIdQ6gO3Anc&ab_channel=pixegami)
+  - [ ] [Exceptions](https://www.youtube.com/watch?v=nlCKrKGHSSk&list=PLfUcrvVntb3X42zqUw_M2FowlyGRf92-Y&index=13&t=359s&ab_channel=Socratica)
     - [ ] Exceptions Types
-- [ ] github
+- [ ] [git](https://www.youtube.com/watch?v=hwP7WQkmECE&ab_channel=Fireship)-github
   - [ ] main commands
     - [ ] git add
     - [ ] git commit
     - [ ] git push
   - [ ] branches
-- [ ] pre-commit
+- [ ] [pre-commit](https://www.youtube.com/watch?v=psjz6rwzMdk&t=295s&ab_channel=mCoding)
   - [ ] black
   - [ ] flake8
   - [ ] isort
