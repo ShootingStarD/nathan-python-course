@@ -1,7 +1,9 @@
+from tests_class_exceptions.src.user import User
+
+
 def compute_sncb_subscription(
-    user_age:int,
-    user_working_status: str,
-)->int:
+        user: User,
+) -> int:
     """
     Computes the price of the SCNB subscription of a client based on its personal info.
     
@@ -12,13 +14,17 @@ def compute_sncb_subscription(
 
     Parameters
     ----------
-    user_age : int
-        the age of the user
-    user_working_status : str
-        the working status of the user ("retired", "student", "employed", "unemployed")
+    user : User
+        The client who will compute its info
     Returns
     -------
     int
         the price of the SCNB subscription of a client based on its personal info
+
     """
-    pass
+    if user.age <= 24 and user.working_status == "student":
+        return 50
+    elif user.working_status == "retired":
+        return 100
+    else:
+        return 800
